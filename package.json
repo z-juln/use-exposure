@@ -1,6 +1,6 @@
 {
   "name": "use-exposure",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "埋点用的react hooks",
   "main": "index.js",
   "typings": "index.d.ts",
@@ -11,7 +11,13 @@
     "type": "git",
     "url": "git+https://github.com/z-juln/use-exposure.git"
   },
-  "keywords": [],
+  "keywords": [
+    "exposure",
+    "burying point",
+    "tracer",
+    "react",
+    "hooks"
+  ],
   "author": "",
   "license": "ISC",
   "types": "./index.d.ts",

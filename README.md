@@ -63,6 +63,7 @@ interface Opts {
 
 function useExposure(callback: (id: string) => void, ids: string[], opts: Opts): {
   intersectionObserver: IntersectionObserver | undefined;
+  /** 已曝光过的ids, 记录下来, 避免重复曝光 */
   exposuredIds: string[];
   exposuredIdsRef: MutableRefObject<string[]>;
   addExposuredIds: (ids: string[]) => void;
